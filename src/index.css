@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@font-face {
+    font-family:FounderBold ;
+    src: url(./assets/Founders_Grotesk/FoundersGrotesk-Bold.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:Founderlight ;
+    src: url(./assets/Founders_Grotesk/FoundersGrotesk-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:Foundermedium ;
+    src: url(./assets/Founders_Grotesk/FoundersGrotesk-Medium.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:Founderregular ;
+    src: url(./assets/Founders_Grotesk/FoundersGrotesk-Regular.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:Foundersemibold ;
+    src: url(./assets/Founders_Grotesk/FoundersGrotesk-Semibold.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:Founderxbold ;
+    src: url(./assets/Founders_Grotesk/FoundersGroteskXCond-Bold.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:Founderxlight ;
+    src: url(./assets/Founders_Grotesk/FoundersGroteskCond-Lt.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:Founder-light ;
+    src: url(./assets/Founders_Grotesk/FoundersGroteskCond-Lt.otf);
+    font-weight: 100;
+}
+
+.parent-div .parent-h3{
+    transition: all ease 0.4s;
+}
+
+.parent-div:hover h3{
+    color: white;
+    background-color: black;
+
+}
+.parent-div span {
+    transition: all ease 0.4s;
+    scale: 0.5;
+}
+.parent-div:hover span{
+    display:block;
+    color: white;
+    scale: 1;
+    background-color: black;
+}
+
+
